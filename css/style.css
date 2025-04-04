@@ -14,7 +14,7 @@
 :root{
   --bg-color: #1f242d;
   --second-bg-color: #323946;
-  --third-bg-color: #da1b1bf1;
+  --third-bg-color: #501515f1;
   --text-color: #fff;
   --main-color: #0ef;
 
@@ -135,6 +135,7 @@ span{
 
 .home-content p {
   font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 .social-media a {
@@ -203,6 +204,7 @@ span{
 .about-img {
   width: 35vw;
   
+  
 }
 
 .heading{
@@ -218,12 +220,14 @@ span{
 
 .about-content h3 {
   font-size: 2.6rem;
+  color: cornflowerblue;
   
 }
 
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  line-height: 1.5;
 }
 
 .skills h2 {
@@ -267,6 +271,11 @@ span{
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+}
+
+#code{
+  font-size: 1.5rem;
+  color: var(--main-color);
 }
 
 .Projects {
